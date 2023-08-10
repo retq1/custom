@@ -3,7 +3,7 @@ local opt = vim.opt
 -- Appearance
 opt.linebreak = true
 opt.scrolloff = 5
---opt.shortmess = 'acFoOw'
+opt.shortmess:append('acFoOw')
 opt.sidescrolloff = 5
 opt.wrap = false
 
